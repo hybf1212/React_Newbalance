@@ -1,0 +1,28 @@
+button {
+  all: unset;
+}
+
+#MO-header .MO-top-header {
+  height: 70px;
+}
+#MO-header .MO-top-header .MO-top-logo {
+  height: 100%;
+  margin: auto;
+}
+#MO-header .MO-nav-background {
+  width: 100%;
+  height: 78px;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1));
+}
+#MO-header .MO-nav-background .MO-navbar {
+  height: 58px;
+  width: 300px;
+  border-radius: 24px;
+  margin: 0 auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+#MO-header .MO-nav-background .MO-navbar > div {
+  height: 60px;
+  width: 60px;
+  font-size: 34px;
+}/*# sourceMappingURL=Base.css.map */
