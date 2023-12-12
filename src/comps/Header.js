@@ -5,7 +5,7 @@ const Header = () => {
     return(
         <>
         <header id='MO-header'>
-            <div className='MO-top-header bg-white fixed-top'>
+            <div className='MO-top-header bg-white'>
                 <img className='MO-top-logo d-block' src={`${process.env.PUBLIC_URL}/img/logo/newbalance-logo-b.svg`} alt="검정색 뉴발란스 로고" />
             </div>
             <div className='MO-nav-background fixed-bottom'>

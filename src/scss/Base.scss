@@ -2,9 +2,19 @@ button{
     all:unset;
    }
 
+ul,li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
 #MO-header{    
     .MO-top-header{
-        height: 70px;
+        height: 58px;
         .MO-top-logo{            
             height: 100%;
             margin: auto;
@@ -13,10 +23,11 @@ button{
     .MO-nav-background{        
         width: 100%;
         height: 78px;
-        background: linear-gradient( to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1));   
+        background: linear-gradient( to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15));   
         .MO-navbar{                        
             height: 58px;
-            width: 300px;            
+            width: 90%;    
+            max-width: 330px;        
             border-radius: 24px;
             margin: 0 auto;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);            
@@ -28,4 +39,30 @@ button{
         }
     }
     
+}
+
+#main-banner{
+    height: 400px;
+    width: 100%;          
+    .main-banner-background{
+        height: 100%;        
+        width: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;        
+        .main-banner-wrap{
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.7);
+            background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0),rgba(0,0,0,0.8));
+            .main-banner-text{
+                text-transform: uppercase;
+                font-family: LibreBaskerville-Bold;                
+                color: rgb(255, 255, 255);
+                font-size: 3.5em;
+                line-height: 1.15em;
+                text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.9);
+            }
+        }        
+    }
 }
